@@ -8,6 +8,7 @@ public class Player {
   public Player(String name, int health, int position) {
     this.name = name;
     this.health = health;
+    this.position = position;
   }
 
   public Player() {

@@ -4,7 +4,7 @@ import Player.Player;
 public class Game {
 
   void newGame(Ui ui, Player player, Controller controller, Map map) {
-    resetPlayer(ui);
+    resetPlayer(ui,player);
     map.roomDetails(0);
     gameRunning(controller,map,ui,player);
 
@@ -33,11 +33,11 @@ public class Game {
   }
 
 
-  void resetPlayer(Ui ui) {
+  void resetPlayer(Ui ui, Player player) {
     ui.printMessage("What is your name?: ");
     String name = ui.getInput();
     ui.printMessage("Welcome " + name);
-
+    new Player(name,10,0);
 
   }
 
