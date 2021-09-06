@@ -1,4 +1,10 @@
 package Item;
 
-public class Item {
+public abstract class Item {
+
+  void useItem() {
+
+  }
+
+
 }
