@@ -1,9 +1,12 @@
 package Player;
 
+import java.util.ArrayList;
+
 public class Player {
   private int health;
   private String name;
   private int position;
+  private ArrayList<String> inventory = new ArrayList<>();
 
   public Player(String name, int health, int position) {
     this.name = name;
