@@ -1,4 +1,4 @@
-package Player;
+package Character;
 
 import java.util.ArrayList;
 
@@ -18,14 +18,6 @@ public class Player {
 
   }
 
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setHealth(int health) {
-    this.health = health;
-  }
-
   public int setPosition(int position) {
     this.position = position;
     return position;
@@ -33,6 +25,14 @@ public class Player {
 
   public int getPosition() {
     return position;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setHealth(int health) {
+    this.health = health;
   }
 
   public String getName() {

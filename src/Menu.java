@@ -1,5 +1,5 @@
 import Map.Map;
-import Player.Player;
+import Character.Player;
 
 public class Menu {
   Ui ui = new Ui();

@@ -1,4 +1,4 @@
-package Player;
+package Character;
 
 public class Inventory {
 }

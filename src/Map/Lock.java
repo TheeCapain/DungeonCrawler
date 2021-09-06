@@ -1,17 +1,17 @@
-package Item;
+package Map;
 
 import java.util.ArrayList;
 
-public class Unlockable {
+public class Lock {
   private boolean lockStatus;
-  ArrayList<Unlockable> unlockables = new ArrayList();
 
-  void unlock() {
+  boolean unlock() {
     System.out.println("This is now unlocked");
+    return true;
   }
 
-  boolean checkLockStatus(Unlockable unlockable) {
-    if (unlockable.lockStatus==false){
+  boolean checkLockStatus(Lock unlockable) {
+    if (!unlockable.lockStatus){
       System.out.println("Is locked");
     } else {
       System.out.println("Is opened");
