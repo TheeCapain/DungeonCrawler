@@ -10,11 +10,14 @@ which will make it possible to add a story to items between rooms.
 
 A simple fighting system and looting system will also be added
 
-## Future Implimentations to be worked on##
+## Future Implimentations to be worked on
 + NPC's
 + Weapons
 + The Explore room function
 + Health and energy function
+
+### Contributers
+[TheeCapain](https://github.com/TheeCapain)
 
 
 
